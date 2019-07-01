@@ -1,35 +1,17 @@
-# Jekyll | Help Center
-Simple and responsive Jekyll theme for help center.
+# SUPOTA | Legal Center
 
-# Demo
-[Demo online](https://gustavoquinalha.github.io/jekyll-help-center-theme/)
+---
 
-![Color Theme](http://quinalha.me/jekyll-help-center-theme/assets/img/readme/responsive.png)
+## develop
+```
+$ git clone <THIS_REPOSITORY>
 
-# Color theme
-edit in _config.yml
-```
-color_theme:  "#0081ff"
-color_text:  "#fff"
-```
+$ cd <THIS_REPOSITORY>
 
-# Install
-```
-git clone https://github.com/gustavoquinalha/jekyll-help-center-theme
-```
-or
-```
-gem install jekyll-help-center-theme
-```
-https://rubygems.org/gems/jekyll-help-center-theme
+$ bundle install
 
-# How to use
-```
-bundle exec jekyll serve --livereload --watch
-```
-Server address
-```
-localhost:4000/jekyll-help-center-theme/
+$ npm run start
+
 ```
 
 # Post Example
@@ -59,7 +41,3 @@ questions:
 ```
 ## License
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
-# Inspired by
-- https://help.market.envato.com/hc/en-us
-- https://www.intercom.com/
