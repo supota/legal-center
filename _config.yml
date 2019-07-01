@@ -1,0 +1,19 @@
+title: "Legal Center"
+email: info@supota.com
+# description: "help center."
+baseurl: ""
+url: "https://supota.com"
+
+color_theme:  "#0081ff"
+color_text:  "#fff"
+language:  "ja"
+
+# Build settings
+markdown: kramdown
+permalink: /:title/
+gems: [jekyll-paginate]
+paginate: 5
+
+# Plugins
+plugins_dir:
+  - jekyll-admin
